@@ -1,0 +1,93 @@
+
+@media (max-width: 900px){
+    .film .film-block{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px){
+    .film .film-block{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 580px) {
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    header .menu nav ul a{
+        padding:  15px 10px;
+    }
+    
+    header .poster{
+        padding: 10px 0px;
+    }
+    
+    header .poster i{
+        font-size: 20px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+    }
+    header .text h1{
+        font-size: 40px;
+    }
+    
+    header .text p{
+        color: #fff;
+        font-size: 17px;
+        margin-top: 37px;
+        max-width: 580px;
+        width: 100%;
+    }
+    
+    header .text .btn{
+
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    
+     
+    header .text .btn a{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    
+}
+
+@media (max-width: 600px){
+    .collection .block{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .grid{
+        display: grid;
+    grid-template-areas: 
+    "boxx-1 boxx-1 "
+    "boxx-2 boxx-3 "
+    "boxx-4 boxx-5 "
+    }
+    
+    .series .block-2 p {
+        font-size: 18px;
+        padding: 40px ;
+    }
+    
+}
+
+
+@media (max-width: 925px){
+    .series .block-2 p {
+        font-size: 18px;
+        padding: 20px  30px;
+    }
+}
